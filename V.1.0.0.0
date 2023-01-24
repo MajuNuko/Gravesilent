@@ -1,3 +1,4 @@
+                                loadstring(game:HttpGet("https://raw.githubusercontent.com/MajuNuko/li/main/AimGraveSource
                                 local Aiming = loadstring(game:HttpGet("https://raw.githubusercontent.com/MajuNuko/InfinityAim/main/Gravesilent", true))()
                             Aiming.TeamCheck(false)
                              
@@ -74,4 +75,3 @@
                                     CurrentCamera.CFrame = CFrame.lookAt(CurrentCamera.CFrame.Position, Hit.Position)
                                 end
                                 end)
-loadstring(game:HttpGet("https://raw.githubusercontent.com/MajuNuko/li/main/Resolver/for/desync"))()
