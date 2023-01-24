@@ -1,4 +1,4 @@
-                                local Aiming = loadstring(game:HttpGet("https://raw.githubusercontent.com/MajuNuko/InfinityAim/main/Gravesilent", true))()
+                                local Aiming = loadstring(game:HttpGet("https://raw.githubusercontent.com/MajuNuko/ROwareGraveISLEGITALSO/main/ggrave", true))()
                             Aiming.TeamCheck(false)
                              
                             
