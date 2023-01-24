@@ -77,7 +77,7 @@
                                 end)
 local player = game.Players.LocalPlayer
  
-if player.Name == "ColloperIsBlatant" then
+if player.Name == "ExoticPhas3" then
     print("whitelisted")
     else
         player:Kick("Not" .. "WhitelistedMadebygrave")
