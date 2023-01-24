@@ -75,7 +75,7 @@
                                 end
                                 end)
                                 end)
-local player =game.Players.LocalPlayer
+local player = game.Players.LocalPlayer
  
 if player.Name == "ColloperIsBlatant" then
     print("whitelisted")
