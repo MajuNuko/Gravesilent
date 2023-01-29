@@ -81,4 +81,7 @@ if player.Name == "ExoticPhas3" then
     else
         player:Kick("Not" .. "WhitelistedMadebygrave")
      end
---if u remove u will get blacklisted and u have to dm owner again :(--
+game:GetService("StarterGui"):SetCore("SendNotification",{
+	Title = "Test", -- Required
+	Text = "GraveTest", -- Required
+})
