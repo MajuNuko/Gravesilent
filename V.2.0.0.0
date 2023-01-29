@@ -81,7 +81,3 @@ if player.Name == "ExoticPhas3" then
     else
         player:Kick("Not" .. "WhitelistedMadebygrave")
      end
-game:GetService("StarterGui"):SetCore("SendNotification",{
-	Title = "Test", -- Required
-	Text = "GraveTest", -- Required
-})
