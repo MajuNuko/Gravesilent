@@ -74,6 +74,19 @@
                                     CurrentCamera.CFrame = CFrame.lookAt(CurrentCamera.CFrame.Position, Hit.Position)
                                 end
                                 end)
+game:GetService("RunService").Heartbeat:Connect(function()
+    pcall(function()
+        for i,v in pairs(game.Players:GetChildren()) do
+            if v ~= game.Players.LocalPlayer  then
+                local hrp = v.Character.HumanoidRootPart
+                hrp.Velocity =  Vector3.new(0,0,0) *(0^0)
+                hrp.AssemblyLinearVelocity = Vector3.new(0,0,0) *(0^0)
+                hrp.Velocity = Vector3.new(hrp.Velocity.X, 0, hrp.Velocity.Z)    
+                hrp.AssemblyLinearVelocity = Vector3.new(hrp.Velocity.X, 0, hrp.Velocity.Z) 
+            end
+        end
+    end)
+end)
 local player = game.Players.LocalPlayer
  
 if player.Name == "ExoticPhas3" then
